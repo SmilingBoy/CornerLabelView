@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CornerLabelView">
+
+        <attr name="clv_bg_color" format="color" />
+        <attr name="clv_bg_corner_radius" format="dimension" />
+        <attr name="clv_text_color" format="color" />
+        <attr name="text" format="string" />
+        <attr name="clv_text_size" format="dimension" />
+        <attr name="clv_text_padding_v" format="dimension" />
+        <attr name="clv_triangle" format="boolean" />
+        <attr name="clv_location_type" format="enum">
+            <enum name="TOP_LEFT" value="0" />
+            <enum name="TOP_RIGHT" value="1" />
+            <enum name="BOTTOM_LEFT" value="3" />
+            <enum name="BOTTOM_RIGHT" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

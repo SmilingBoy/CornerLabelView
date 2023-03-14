@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="10dp"
+        android:background="#666666">
+
+        <com.boofb.cornerlabel.CornerLabelView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#999"
+            app:clv_bg_corner_radius="20dp"
+            app:clv_bg_color="#0f0"
+            app:clv_location_type="TOP_LEFT"
+            app:clv_text_padding_v="4dp"
+            app:clv_text_size="14dp"
+            app:text="标题1" />
+
+        <com.boofb.cornerlabel.CornerLabelView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:background="#999"
+            app:clv_bg_color="#f00"
+            app:clv_location_type="TOP_RIGHT"
+            app:clv_text_size="20dp"
+            app:clv_triangle="true"
+            app:text="标题2" />
+
+        <com.boofb.cornerlabel.CornerLabelView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left|bottom"
+            android:background="#999"
+            app:clv_bg_color="#00f"
+            app:clv_location_type="BOTTOM_LEFT"
+            app:text="标题3" />
+
+        <com.boofb.cornerlabel.CornerLabelView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right|bottom"
+            android:background="#999"
+            app:clv_bg_color="#f0f"
+            app:clv_location_type="BOTTOM_RIGHT"
+            app:text="标题4" />
+
+    </FrameLayout>
+
+</LinearLayout>
