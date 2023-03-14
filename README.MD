@@ -5,6 +5,25 @@
 ![](pic/1.png)
 
 ### 使用导入方式
+[![](https://jitpack.io/v/SmilingBoy/CornerLabelView.svg)](https://jitpack.io/#SmilingBoy/CornerLabelView)
+
+> Step 1. Add the JitPack repository to your build file
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+> Step 2. Add the dependency
+```groovy
+
+dependencies {
+    implementation 'com.github.SmilingBoy:CornerLabelView:v1.0.0'
+}
+```
 
 ### 使用方式
 
